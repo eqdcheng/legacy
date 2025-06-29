@@ -1,0 +1,12 @@
+# api key(s)
+.env
+# cache files
+__pycache__/
+
+# editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.png
+*.pdf
