@@ -3,9 +3,6 @@
 # cache files
 __pycache__/
 
-# outputs and files
-*.json
-
 # editor files
 .vscode/
 .idea/

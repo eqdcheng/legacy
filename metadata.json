@@ -1,0 +1,20 @@
+{
+  "min_similarity_threshold": 0.3,
+  "total_conversations": 3508,
+  "embedding_dim": 384,
+  "n_clusters": 10,
+  "categories": {
+    "Other": 1988,
+    "Family": 563,
+    "Depression": 406,
+    "Relationships": 404,
+    "Anxiety": 147
+  },
+  "avg_response_length": 1027.2388825541618,
+  "response_quality_distribution": {
+    "1": 1291,
+    "2": 1133,
+    "0": 646,
+    "3": 438
+  }
+}
