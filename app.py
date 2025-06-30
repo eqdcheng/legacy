@@ -31,9 +31,9 @@ def load_data_and_embeddings():
 
 @st.cache_resource
 def get_anthropic_client():
-    api_key = os.getenv('ANTHROPIC_API_KEY')
+    api_key = st.secrets.get("ANTHROPIC_API_KEY", os.getenv('ANTHROPIC_API_KEY'))
     if not api_key:
-        st.error("Please set ANTHROPIC_API_KEY in .env file")
+        st.error("Please set ANTHROPIC_API_KEY in Streamlit secrets or .env file")
         st.stop()
     return Anthropic(api_key=api_key)
 
