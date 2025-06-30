@@ -3,6 +3,11 @@
 # cache files
 __pycache__/
 
+# outputs and files
+*.csv
+*.json
+*.npy
+
 # editor files
 .vscode/
 .idea/
