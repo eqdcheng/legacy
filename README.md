@@ -18,18 +18,6 @@ This tool addresses a critical need in mental health counseling: providing evide
 - **Single File Architecture**: All functionality in `app.py` for easier review and deployment
 - **Dataset**: Chose a dataset that would be quick to work with, but there are definetly better ones
 
-## Project Structure
-
-counselor-guidance-tool/
-├── app.py                      # Main application (all logic in one file for POC simplicity)
-├── eda.ipynb                   # Data exploration and preprocessing
-├── processed_conversations.csv # Cleaned dataset with metadata
-├── embeddings.npy             # Pre-computed embeddings for all conversations
-├── metadata.json              # Dataset statistics and configuration
-├── requirements.txt           # Python dependencies
-├── .env                       # API keys (not committed)
-└── README.md                  # Project documentation
-
 ## Technical Highlights
 
 ### Embedding Strategy
